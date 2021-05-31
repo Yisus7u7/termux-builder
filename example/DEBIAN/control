@@ -1,0 +1,10 @@
+Package: package-name
+Version: 1.0.0
+Section: (your-category)
+Priority: optional
+Architecture: all
+Depends: (your package depends ej: python, php)
+Installed-Size: (size for your deb
+Maintainer: (your name) <you-email>
+Homepage: (you web homepage)
+Description:  (you description)
