@@ -11,4 +11,6 @@ Luego use :
 
 Y use 
 
-./build.py example.deb (cambie example.deb por el nombre del paquete que desea contruir)
+./build.py example.deb 
+
+(cambie example.deb por el nombre del paquete que desea construir)
