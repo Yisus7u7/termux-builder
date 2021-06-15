@@ -4,6 +4,8 @@ Section: (your-category)
 Priority: optional
 Architecture: all
 Depends: (your package depends ej: python, php)
+Recommends: x11-repo (recommend packages)
+Suggests: xfce4 (suggest packages)
 Installed-Size: (size for your deb
 Maintainer: (your name) <you-email>
 Homepage: (you web homepage)
