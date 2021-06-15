@@ -1,3 +1,4 @@
 #!/bin/bash
+# este script se ejecuta luego de la instalacion
 echo "tanks for installing"
 

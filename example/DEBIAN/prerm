@@ -1,2 +1,3 @@
 #!/bin/bash
+#este script se ejecuta antes de la eliminacion del paquete
 echo "package uninstalled :C"
