@@ -1,7 +1,7 @@
 #!/bin/bash 
+PKG="termux_pkg"
+DATA="pkg_data.tar.xz"
+rm -rf ./$PKG
+tar -xvf ./$DATA
 
-rm -rf ./builder
-
-tar -xvf ./builder-data.tar
-
-echo "new project create now"
+echo "new project create now $PKG"
