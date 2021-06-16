@@ -58,7 +58,19 @@ Luego de eso use :
 
 ```
 ./build.py hello-example_1.0.0_all.deb
-# Nota : cambie "hello-example por el nombre de su paquete, 
-# cambie 1.0.0 por la versión y cambie all por la arquitectura 
+# Nota : cambie "hello-example" por el nombre de su paquete, 
+# cambie "1.0.0" por la versión y cambie "all" por la arquitectura 
 # que usted haya especificado. 
 ```
+
+Luego podrá instalar el paquete con :
+
+`pkg install ./package_name.deb`
+
+También puede hacer cosas geniales como crear un 
+repositorio de paquetes .deb similar a los de termux, 
+donde el usuario debe solo ejecutar `pkg install app_name`
+para instalar sus paquetes, un ejemplo de repositorio 
+apt es [este repositorio.](https://pkgs-yisus.github.io/pkgs.yisus.org/)
+
+
