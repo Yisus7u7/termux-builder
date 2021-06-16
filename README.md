@@ -87,6 +87,8 @@ apt es [este repositorio.](https://pkgs-yisus.github.io/pkgs.yisus.org/)
 - Puede hacer solicitudes de extracción sobre errores
 o mejoras útiles.
 
+- Mejorar esta página (aspecto, información) 
+
 - Si quiere reportar un error, hacer una pregunta
 o solicitar una función, [cree el problema aquí](https://github.com/Yisus7u7/termux-builder/issues) 
 
