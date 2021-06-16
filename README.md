@@ -48,3 +48,17 @@ Homepage: https://github.com/Yisus7u7/termux-builder  #link al código fuente o 
 Description: This is an example of hello world   #descripción de su paquete 
 
 ```
+
+Con eso definimos la información del paquete, 
+Ahora ingrese sus archivos en la carpeta `./termux_pkg/data/data/com.termux/files/usr/`
+En esa ubicación se encuentran las carpetas, sea creativo, 
+guarde los ejecutables en bin y los datos de su programa en share. 
+
+Luego de eso use :
+
+```
+./build.py hello-example_1.0.0_all.deb
+# Nota : cambie "hello-example por el nombre de su paquete, 
+# cambie 1.0.0 por la versión y cambie all por la arquitectura 
+# que usted haya especificado. 
+```
