@@ -52,7 +52,8 @@ Description: This is an example of hello world   #descripción de su paquete
 Con eso definimos la información del paquete, 
 Ahora ingrese sus archivos en la carpeta `./termux_pkg/data/data/com.termux/files/usr/`
 En esa ubicación se encuentran las carpetas, sea creativo, 
-guarde los ejecutables en bin y los datos de su programa en share. 
+guarde los ejecutables en bin y los datos de su programa en share, 
+le recomiendo borrar las carpetas vacias que no use. 
 
 Luego de eso use :
 
@@ -73,4 +74,18 @@ donde el usuario debe solo ejecutar `pkg install app_name`
 para instalar sus paquetes, un ejemplo de repositorio 
 apt es [este repositorio.](https://pkgs-yisus.github.io/pkgs.yisus.org/)
 
+### Enlaces de referencia 🔗
 
+- [termux-apt-repo](https://github.com/termux/termux-apt-repo)
+- [termux-create-package](https://github.com/termux/termux-create-package)
+- [mi repositorio comunitario de paquetes](https://pkgs-yisus.github.io/pkgs.yisus.org/)
+- [wiki de debían](https://wiki.debian.org/Packaging/Intro)
+
+
+## Contribuir
+
+- Puede hacer solicitudes de extracción sobre errores
+o mejoras útiles.
+
+- Si quiere reportar un error, hacer una pregunta
+o solicitar una función, [cree el problema aquí]() 
