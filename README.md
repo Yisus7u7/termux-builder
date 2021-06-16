@@ -1,6 +1,8 @@
 # termux-builder
 Build simple .deb packages for termux
 
+![image](https://opengraph.githubassets.com/91871daab983cd69e18846c4f5c40a547e91638b3fe6064d81d9bb4574d95e73/Yisus7u7/termux-builder) 
+
 ## Que es termux-builder? 
 
 Termux builder es un conjunto de simples scripts 
