@@ -1,1 +1,5 @@
+title: "Termux-builder"
+description: >
+ Tool for building simple .deb files for termux 
+
 theme: jekyll-theme-leap-day
