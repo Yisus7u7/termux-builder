@@ -29,3 +29,22 @@ Y use
 ./build.py example.deb 
 # cambie example.deb por el nombre del paquete que desea construir
 ```
+
+### Como funciona?
+Termux-builder genera un boostrap minimo
+Solo debe editar la información de su paquete en
+`./termux_pkg/DEBIAN/control`, ahí debe definir la
+información de su paquete.
+
+```
+Package: hello-example  #nombre se su paquete, solo minúsculas y números, no use espacios. 
+Version: 1.0.0  #versión de su paquete 
+Priority: optional  #prioridad (es mejor no cambiar eso) 
+Architecture: all  #arquitectura compatibles con su paquete, all es compatible con todas
+Depends: python, php, openssh  #dependencias que su paquete necesita para funcionar 
+Installed-Size: 2300  #peso de su paquete, el valor debe ser equivalente a Kb
+Maintainer: @Yisus7u7 <jesuspixel5@gmail.com>  #su nombre, correo electrónico opcional
+Homepage: https://github.com/Yisus7u7/termux-builder  #link al código fuente o el lugar de origen del paquete 
+Description: This is an example of hello world   #descripción de su paquete 
+
+```
