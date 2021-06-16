@@ -1,9 +1,19 @@
 # termux-builder
 Build simple .deb packages for termux
 
-## Como usarlo 
+## Que es termux-builder? 
 
-Clone este repositorio
+Termux builder es un conjunto de simples scripts 
+para la creación de paquetes .deb para termux.
+
+## Instalación :
+
+```
+# instalamos las dependencias necesarias 
+pkg install git python
+# Clonamos este repositorio 
+git clone 
+
 
 Luego use :
 
