@@ -6,7 +6,7 @@ TERMUX_PKG_NAME=""
 
 # you pkg version ej : 1.0.0
 
-oTERMUX_PKG_VERSION=""
+TERMUX_PKG_VERSION=""
 
 # you home or source page ej: https://mypackage.github.org
 
