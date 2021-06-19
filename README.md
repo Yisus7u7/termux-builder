@@ -94,7 +94,7 @@ Luego de eso use :
 ```
 ./build.py 
 
-@ se generará su paquete .deb
+# se generará su paquete .deb
 ```
 
 Luego podrá instalar el paquete con :
