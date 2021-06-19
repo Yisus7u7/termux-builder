@@ -1,5 +1,5 @@
-#!/data/data/com.termux/files/usr/bin/env python
-o#insert your termux pkg info
+#!/data/data/com.termux/files/usr/bin/env python3
+#insert your termux pkg info
 # you pkg name ej : hello_example
 
 TERMUX_PKG_NAME=""
