@@ -38,6 +38,12 @@ Solo debe editar la información de su paquete en
 `pkg_info.py`, ahí debe definir la
 información de su paquete.
 
+edite pkg_info.py:
+
+'nano pkg_info.py` 
+
+puede usar su editor de texto de preferencia 
+
 ```python
 #insert your termux pkg info
 # nombre de tu paquete, ej:
