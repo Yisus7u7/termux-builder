@@ -90,7 +90,10 @@ TERMUX_PKG_ARCH="all"
 ```
 
 Con eso definimos la información del paquete, 
-Ahora ingrese sus archivos en la carpeta `./termux_pkg/data/data/com.termux/files/usr/`
+Ahora ingrese sus archivos en la carpeta 
+
+`./termux_pkg/data/data/com.termux/files/usr/`
+
 En esa ubicación se encuentran las carpetas, sea creativo, 
 guarde los ejecutables en bin y los datos de su programa en share, 
 le recomiendo borrar las carpetas vacias que no use. 
