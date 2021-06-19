@@ -28,26 +28,58 @@ Su uso es simple ingresa a la carpeta termux-builder, usa el comando :
 Y use 
 
 ```
-./build.py example.deb 
-# cambie example.deb por el nombre del paquete que desea construir
+./build.py 
+# para construir el paquete 
 ```
 
 ### Como funciona?
 Termux-builder genera un boostrap minimo
 Solo debe editar la información de su paquete en
-`./termux_pkg/DEBIAN/control`, ahí debe definir la
+`pkg_info.py`, ahí debe definir la
 información de su paquete.
 
 ```
-Package: hello-example  #nombre se su paquete, solo minúsculas y números, no use espacios. 
-Version: 1.0.0  #versión de su paquete 
-Priority: optional  #prioridad (es mejor no cambiar eso) 
-Architecture: all  #arquitectura compatibles con su paquete, all es compatible con todas
-Depends: python, php, openssh  #dependencias que su paquete necesita para funcionar 
-Installed-Size: 2300  #peso de su paquete, el valor debe ser equivalente a Kb
-Maintainer: @Yisus7u7 <jesuspixel5@gmail.com>  #su nombre, correo electrónico opcional
-Homepage: https://github.com/Yisus7u7/termux-builder  #link al código fuente o el lugar de origen del paquete 
-Description: This is an example of hello world   #descripción de su paquete 
+#insert your termux pkg info
+# nombre de tu paquete, ej:
+
+TERMUX_PKG_NAME="my_hello_app"
+
+# versión de tu paquete, ej:
+
+TERMUX_PKG_VERSION="1.0.0"
+
+# enlace a página o fuente de tu paquete, ej:
+
+TERMUX_PKG_HOMEPAGE="https://pkgs-yisus.github.io/pkgs.yisus.org/"
+
+# descripción de tu paquete ej:
+#nota : la descripción debe ocupar sólo una línea. 
+
+TERMUX_PKG_DESCRIPTION="esto es un ejemplo de hello world"
+
+# dueño/mantendor del paquete, ej:
+
+TERMUX_PKG_MAINTAINER="@Yisus7u7 <jesuspixel5@gmail.com>"
+
+# dependencias de tu paquete, ej:
+
+TERMUX_PKG_DEPENDS="python, openssh, php"
+
+# el tamaño de tu paquete 
+# Nota: el valor debe equivaler a KB
+#ej: 1000 = 1MB | 1000 es igual a 1000 kB y 1000kb es igual a 1MB
+
+TERMUX_PKG_SIZE="2100"
+
+# la arquitectura que donde solo tu paquete puede ejecutarse
+# nota : usa all para que sea comptible con todos los dispositivos 
+# si tu paquete usa clang o c++ o lenguajes
+# que requieren compilación, debe usar los valores
+# (arm, aarch64, x86_64)
+
+TERMUX_PKG_ARCH="all"
+
+# end
 
 ```
 
@@ -60,10 +92,9 @@ le recomiendo borrar las carpetas vacias que no use.
 Luego de eso use :
 
 ```
-./build.py hello-example_1.0.0_all.deb
-# Nota : cambie "hello-example" por el nombre de su paquete, 
-# cambie "1.0.0" por la versión y cambie "all" por la arquitectura 
-# que usted haya especificado. 
+./build.py 
+
+@ se generará su paquete .deb
 ```
 
 Luego podrá instalar el paquete con :
