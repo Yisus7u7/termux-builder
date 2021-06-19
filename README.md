@@ -40,7 +40,7 @@ información de su paquete.
 
 edite pkg_info.py:
 
-'nano pkg_info.py` 
+`nano pkg_info.py` 
 
 puede usar su editor de texto de preferencia 
 
