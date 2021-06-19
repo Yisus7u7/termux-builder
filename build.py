@@ -19,7 +19,7 @@ pkg_data.write(f"Installed-Size: {TERMUX_PKG_SIZE}\n")
 pkg_data.write(f"Depends: {TERMUX_PKG_DEPENDS}\n")
 pkg_data.write(f"Homepage: {TERMUX_PKG_HOMEPAGE}\n")
 pkg_data.write(f"Description: {TERMUX_PKG_DESCRIPTION}\n")
-pkg_data.write("  \n")
+pkg_data.close
 
 print("Building package....")
 os.system("chmod 755 ./termux_pkg/DEBIAN/*")
