@@ -10,7 +10,7 @@ para la creación de paquetes .deb para termux.
 
 ## Instalación :
 
-```
+```bash
 # instalamos las dependencias necesarias 
 pkg install git python
 # Clonamos este repositorio 
@@ -38,7 +38,7 @@ Solo debe editar la información de su paquete en
 `pkg_info.py`, ahí debe definir la
 información de su paquete.
 
-```
+```python
 #insert your termux pkg info
 # nombre de tu paquete, ej:
 
