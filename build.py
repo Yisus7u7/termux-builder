@@ -9,7 +9,6 @@ from pkg_info import *
 #os.system("chmod 755 ./termux_pkg/DEBIAN")
 #os.system(f"dpkg -b ./termux_pkg {package}")
 
-nombre = sys.argv[1]
 
 pkg_data = open("./termux_pkg/DEBIAN/control", "r+")
 pkg_data.write(f"Package: {TERMUX_PKG_NAME}\n")
