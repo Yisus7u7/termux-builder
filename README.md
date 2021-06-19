@@ -21,13 +21,13 @@ git clone https://github.com/Yisus7u7/termux-builder
 
 Su uso es simple ingresa a la carpeta termux-builder, usa el comando :
 
-```
+```bash
 ./gen.sh  #para crear un nuevo proyecto
 ```
 
 Y use 
 
-```
+```bash
 ./build.py 
 # para construir el paquete 
 ```
@@ -91,7 +91,7 @@ le recomiendo borrar las carpetas vacias que no use.
 
 Luego de eso use :
 
-```
+```bash
 ./build.py 
 
 # se generará su paquete .deb
