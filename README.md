@@ -114,13 +114,13 @@ También puede hacer cosas geniales como crear un
 repositorio de paquetes .deb similar a los de termux, 
 donde el usuario debe solo ejecutar `pkg install app_name`
 para instalar sus paquetes, un ejemplo de repositorio 
-apt es [este repositorio.](https://pkgs-yisus.github.io/pkgs.yisus.org/)
+apt es [este repositorio.](https://pkgs-termux.github.io/pkgs.org)
 
 ### Enlaces de referencia 🔗
 
 - [termux-apt-repo](https://github.com/termux/termux-apt-repo)
 - [termux-create-package](https://github.com/termux/termux-create-package)
-- [mi repositorio comunitario de paquetes](https://pkgs-yisus.github.io/pkgs.yisus.org/)
+- [mi repositorio comunitario de paquetes](https://pkgs-termux.github.io/pkgs.org)
 - [wiki de debían](https://wiki.debian.org/Packaging/Intro)
 
 
